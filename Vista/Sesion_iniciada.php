@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a href="Sesion_iniciada.php"><img src="../Imagenes/LogoInvis.png" alt="logo" id="logonav"></a>
+        <a href="Sesion_iniciada.php"><img src="../Imagenes/LogoInvis.png" id="logonav" alt="logo"></a>
         <nav>
             <ul class="nav_links">
                 <ol><a href=""> Quienes somos </a></ol>
@@ -22,23 +22,16 @@
 <div>
     <!-- banner -->
 </div>
-<br><br>
+<br>
 <section class="contenido">
     <h2>Bienvenido al sistema de citas Varon del Sol</h2>
-    <p>Por medio de está pagina podra reservar, consultar, re-programar o cancelar citas medicas</p>
+    <p>Por medio de está pagina podra agendar, re-programar, consultar o cancelar citas medicas</p>
     <h4>¿Que accion deseas realizar?</h4>
-    <a href=""><img src="../Imagenes/Reservar.png" class="accion" alt="accion1" ></a><br><br><br><br><br><br><br><br>
+    <a href=""><img src="../Imagenes/Reservar.png" class="accion" alt="accion1"></a>   
     <p>Reservar cita</p>
-    <a href=""><img src="../Imagenes/Consultar.png" alt="accion2" class="accion"></a><br><br><br><br><br><br><br><br>
-    <p>Consultar cita</p><br><br><br>
+    <a href=""><img src="../Imagenes/Consultar.png" class="accion" alt="accion2"></a>
+    <p>Consultar cita</p>
 </section>
-<aside class="lado">
-    <div>
-        <img src="" alt="">
-        <h4> Tips para una mejor salud</h4>
-    </div>
-</aside>
-<br><br>
 <footer>
     <h3>Contactenos</h3>
     <p>Telefono: +57 3124578964</p>

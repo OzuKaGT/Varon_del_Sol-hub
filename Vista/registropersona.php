@@ -5,16 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro de pacientes</title>
-    <link  href="Style/Estilo1.css" rel="stylesheet">
+    <link  href="../Style/Estilo1.css" rel="stylesheet">
 </head>
 <header>
         <a href="Inicio.php"><img src="../Imagenes/LogoInvis.png" alt="logo" id="logonav"></a>
         <nav>
             <ul class="nav_links">
                 <ol><a href="Iniciosesion.php"> Iniciar Sesion </a></ol>
-                <ol><a href=""> Quienes somos </a></ol>
-                <ol><a href=""> Como funciona </a></ol>
-                <ol><a href=""> Ayuda </a></ol>
+                <ol><a href="registromedico.php"> Soy medico </a></ol>
             </ul>
         </nav>
     </header>
@@ -46,6 +44,7 @@
     <label>Contraseña</label>
     <input type="password" id="in9"><br><br><br>
     <button>ENVIAR</button>
+    <p> ¿Ya estas registrado? <a href="Iniciosesion.php">Inicia Sesión</a> </p>
     </form>
 </body>
 </html>

@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario para solicitud de citas </title>
-    <link  href="Style/Estilo2.css" rel="stylesheet">
+    <link  href="../Style/Estilo2.css" rel="stylesheet">
 </head>
 <header>
-    <a href="Index.html"><img src="Imagenes/LogoInvis.png" alt="logo"></a>
+    <a href="Inicio.php"><img src="../Imagenes/LogoInvis.png" alt="logo"></a>
 </header>
 <body>
     <form action="" method="post">

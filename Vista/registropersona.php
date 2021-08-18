@@ -17,33 +17,31 @@
         </nav>
     </header>
 <body>
-    <form action="" method="post">
+    <form action="../Controlador/ValidarRegistro.php" method="post">
     <label id="tit"> REGISTRO DE PACIENTES </label><br><br><br>
     <label>Tipo de documento</label>
-    <select id="in1">
-        <option></option>
-        <option>Registro Civil</option>
-        <option>Tarjeta de Identidad</option>
-        <option>Cedula de Ciudadania</option>
-        <option>Documento extranjero</option>
+    <select name="tipo" id="in1">
+        <option value=""></option>
+        <option value="Registro Civil">Registro Civil</option>
+        <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+        <option value="Cedula de Ciudadania">Cedula de Ciudadania</option>
+        <option value="Documento extranjero">Documento extranjero</option>
     </select><br><br>
     <label>Numero de documento</label>
-    <input type="text" min="7" max="10" id="in2"><br><br>
+    <input type="text" name="numb" min="7" max="10" id="in2"><br><br>
     <label>Nombres del paciente</label>
-    <input type="text"id="in3"><br><br>
+    <input type="text" name="name" id="in3"><br><br>
     <label>Apellidos del paciente</label>
-    <input type="text" id="in4"><br><br>
-    <label>Direccion</label>
-    <input type="text" id="in5"><br><br>
+    <input type="text" name="lname" id="in4"><br><br>
     <label>Telefono de contacto</label>
-    <input type="text" id="in6"><br><br>
+    <input type="text" name="tel" id="in6"><br><br>
     <label>Edad</label>
-    <input type="text" id="in7"><br><br>
+    <input type="text" name="age" id="in7"><br><br>
     <label>Correo Electronico</label>
-    <input type="email" id="in8"><br><br>
+    <input type="email" name="email" id="in8"><br><br>
     <label>Contraseña</label>
-    <input type="password" id="in9"><br><br><br>
-    <button>ENVIAR</button>
+    <input type="password" name="pass" id="in9"><br><br><br>
+    <input type="submit" value="Registrar" name="registro">
     <p> ¿Ya estas registrado? <a href="Iniciosesion.php">Inicia Sesión</a> </p>
     </form>
 </body>

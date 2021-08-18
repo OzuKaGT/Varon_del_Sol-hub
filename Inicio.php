@@ -25,6 +25,6 @@
 <footer>
     <h3>Contactenos</h3>
     <p>Telefono: +57 3124578964</p>
-</footer>    
+</footer>  
 </body>
 </html>

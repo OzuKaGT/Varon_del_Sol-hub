@@ -30,7 +30,10 @@
     <a href=""><img src="../Imagenes/Reservar.png" class="accion" alt="accion1"></a>   
     <p>Reservar cita</p>
     <a href=""><img src="../Imagenes/Consultar.png" class="accion" alt="accion2"></a>
-    <p>Consultar cita</p>
+    <p>Consultar cita</p>    
+    <?php 
+        include ("../Modelo/Conectar.php");
+    ?>
 </section>
 <footer>
     <h3>Contactenos</h3>

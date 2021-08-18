@@ -1,0 +1,90 @@
+html{
+    display: block;
+    padding: 0px;
+	background-image: url('https://i.pinimg.com/originals/6a/96/bb/6a96bbd8b78d7c6b473024e043b71408.jpg');
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+	padding: 0px 14%;
+	border: solid;
+    margin-top: 8px;
+	border-color: rgb(94, 94, 94);
+	border-style: ridge;
+	background-color: #6ed3fb;
+    color: #363d37;
+}	
+#logonav{
+	margin-left: -80px;
+	width: 200px;
+	height: 100px;
+}
+.nav_links{
+	transition: all 2s ease 0s;
+	list-style: none;
+	margin-right: -100px;
+	background-color: #6ed3fba6;
+    color: #363d37;
+}
+ol,a{
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	margin-right: 10px;
+	color: white;
+	text-decoration: none;
+	background-color: #6ed3fba6;
+    color: #363d37;
+    list-style:Natu;
+}
+.nav_links ol{
+	transition: all 2s ease 0s;
+	display: inline-block;
+	padding: 6px 8px;
+	background-color: #6ed3fba6;
+    color: #363d37;
+}
+.nav_link ol a {
+	transition: all 2s ease 0s;
+	background-color: #6ed3fba6;
+    color: #363d37;
+}
+ol a:hover{
+	border-radius: 15px;
+	border:solid black;
+	background-color: #0984f6a2;
+    font-size: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: black;
+}
+.accion{
+	float: left;
+	margin-right: 50px;
+	margin-left: 700px;
+	width: 200px;
+	height: 140px;
+
+}
+.contenido{
+	align-items: center;
+	text-align: center;
+	border: solid black;
+	margin-right: 420px;
+	background-color: white;
+}
+.lado{
+	float: right;
+	margin-top: -200px;
+	width: 20%;
+	align-items: center;
+	text-align: center;
+	border: solid black;
+	background-color: white;
+}
+footer{
+	border: solid black;
+	text-align: center;
+	background-color: #6ed3fb;
+}
